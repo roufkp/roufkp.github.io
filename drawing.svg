@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="drawing.svg">
+  <defs
+     id="defs2">
+    <filter
+       inkscape:label="Opaline"
+       inkscape:menu-tooltip="Contouring version of smooth shader"
+       inkscape:menu="Non-realistic 3D Shaders"
+       height="1.5"
+       y="-0.25"
+       width="1.5"
+       x="-0.25"
+       style="color-interpolation-filters:sRGB"
+       id="filter78">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="result8"
+         in="SourceGraphic"
+         id="feGaussianBlur58" />
+      <feComposite
+         in2="result8"
+         operator="xor"
+         id="feComposite60" />
+      <feComposite
+         k2="1"
+         operator="arithmetic"
+         result="result16"
+         in2="result8"
+         id="feComposite62" />
+      <feComposite
+         in2="result16"
+         result="result6"
+         operator="xor"
+         in="result16"
+         id="feComposite64" />
+      <feOffset
+         result="result17"
+         in="result16"
+         id="feOffset66" />
+      <feDisplacementMap
+         in2="result16"
+         xChannelSelector="A"
+         yChannelSelector="A"
+         scale="100"
+         result="result4"
+         in="result17"
+         id="feDisplacementMap68" />
+      <feComposite
+         in2="result4"
+         result="result2"
+         operator="arithmetic"
+         in="SourceGraphic"
+         k1="1"
+         k3="1"
+         id="feComposite70" />
+      <feComposite
+         in2="result2"
+         result="fbSourceGraphic"
+         in="result6"
+         operator="in"
+         id="feComposite72" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result14"
+         id="feComposite74" />
+      <feComposite
+         result="result15"
+         in2="SourceGraphic"
+         operator="in"
+         in="result14"
+         id="feComposite76" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="400"
+     inkscape:cy="560"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:198.28166199px;line-height:1.25;font-family:Vani;-inkscape-font-specification:Vani;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.03271699;filter:url(#filter78)"
+       x="44.858921"
+       y="233.20091"
+       id="text12"
+       transform="matrix(1.0052279,0,0,0.99479925,-7.5595238,-16.630952)"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         x="44.858921"
+         y="233.20091"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Vani;-inkscape-font-specification:Vani;stroke-width:1.03271699">R</tspan></text>
+  </g>
+</svg>
