@@ -1,0 +1,585 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    min-height: 100vh;
+    background-color: black;
+    width: 100%;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
+}
+.social-container{
+    width: 250px;
+    height: 50px;
+    background-color: transparent;
+    position: absolute;
+    float: right;
+    right: 10px;
+    top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.social-container img{
+    box-shadow:0 0px 4px 0px black;
+    width: 25px;
+    height: 25px;
+    margin: auto;
+}
+.resume{
+    position: absolute;
+    float: right;
+    top: 50px;
+    right: 0px;
+    width: 60px;
+    height: fit-content;
+}
+.resume button{
+    border:2px solid black;
+    background-color:transparent;
+    color: blanchedalmond;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    transition: all 1s ease;
+}
+.main-container{
+    display: block;
+    position: relative;
+    padding:0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(#1e1e26,black);
+}
+.container1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main-left{
+    max-width:250px;
+    width: 18vw;
+    margin: auto;
+    position: relative;
+    left: 0;
+    top: 0px;
+    height: 100vh;
+    background-color: black;
+    mix-blend-mode: difference;
+    background: linear-gradient(rgb(6, 6, 49),black);
+}
+.main-right
+{
+    position: relative;
+    width:80% ;
+    margin: 0;
+    background: transparent;
+}
+.cont-left{
+    height: 100vh;
+    margin: auto;
+     display: grid;
+     place-items: center;
+    align-items: center;
+}    
+.cont-left .about{
+    gap: 10px;
+    width: 18vw;
+    background-color: transparent;
+    margin: auto auto auto auto;
+    display: grid;
+    height: fit-content;
+    place-items: center;
+    color: gray;
+    font-family: monospace;
+    align-items: center;
+}
+.cont-left span{
+    font-size: 3em;
+    font-weight: bolder;
+    color: grey;
+    margin:  auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: auto;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    transition: all 1s;
+    text-shadow: 2px 2px   transparent;
+    background-color: transparent;
+    transition: .1s all linear;
+}
+.cont-left span:hover{
+    color: rgb(56, 238, 117);
+    text-shadow: 0 0 10px rgb(38, 224, 110),
+                 0 0 20px rgb(31, 212, 61),
+                 0 0 30px rgb(79, 230, 59),
+                 0 0 40px rgb(36, 221, 119) ;
+}
+.cont-right{
+    background-image: url(drawing.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    background-blend-mode: darken;
+    display: grid;
+    place-items: center;
+}
+.cont-right .hlo{
+    color:grey;
+    font-size: 8vw;        
+    transition:.1s all  linear;
+    cursor: pointer;
+}
+.cont-right .hlo span:hover{
+    
+    color: rgb(248, 33, 140);
+    text-shadow: 0 0 30px rgb(245, 78, 162),
+                 0 0 60px rgb(243, 83, 163),
+                 0 0 90px rgb(241, 57, 149),
+                 0 0 120px rgb(94, 56, 75) ;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(to right,goldenrod 50%,black 50%);
+}
+.pro-pic{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 10vh;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+.pro-pic .image{
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(20% 0%,0% 20%,30% 50%,0% 80%,20% 100%,50% 70%,
+    80% 100%,100% 80%,70% 50%,100% 20%,80% 0%,50% 20%);
+}
+.container2 .left{
+    position: relative;
+    top: 0;
+    width: 50%;
+    height: calc(100vh);
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container2 .left img{
+    width: 100%;
+    height: 60vh;
+}
+.container2 .right{
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    color:white;
+    text-align: center;
+    z-index: 2;
+    overflow-y: auto;
+    display: grid;
+    place-items: center;
+    padding-bottom: 20vh;
+}
+.container2 .right h1{
+    color:white;
+    font-family: Arial;
+    font-size: 3em;
+}
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(to right,initial 50%,blanchedalmond 50%);
+}
+.container3 .right{
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    background-image: url(PSX_20200710_080034.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container3 .left{
+    position: relative;
+    display: flex;
+    overflow-y: scroll;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+}.container3 .left h1{
+    font-size: 30px;
+
+}
+.container3 .left::-webkit-scrollbar{
+    width:8px;
+}
+.container3 .left::-webkit-scrollbar{
+    background: initial;
+}
+.container3 .left::-webkit-scrollbar-thumb{
+    background: linear-gradient(to top,
+    rgb(153, 153, 243) ,
+    rgb(150, 240, 179));
+    height: 20px;
+    border-radius: 10px;
+}
+.container3 .left section{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(autofill,1fr);
+}
+.container3 .left section .tech-skill{
+    height: fit-content;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    height: 80vh;
+    text-align: center;
+    grid-gap: 20px;
+    background-color:orange ;
+    padding: 30px 0;
+}
+.container3 .left section .tech-skill img{
+    width: 80px;
+    height: 80px;
+}
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .swiper-slide {
+    display: grid;
+    place-items: center;   
+    width: 90%;
+    max-width: 300px;
+    height: 350px;
+  }
+  .tech-skill .swiper-slide{
+    background-color: transparent;
+    font-size: 15px;
+  }
+  .container3 .left section .org-skill{
+    height: fit-content;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    min-height: 50vh;
+    grid-gap: 20px;
+    background-color:orange ;
+    padding: 30px 0;
+    text-align: center;
+}
+.org-skill .swiper-slide{
+    background-color: green;
+    text-align: center;
+}
+.card{
+    transition: all 1s linear;
+    text-align:center;
+    align-items:center;
+    width: 300px;
+    height: 350px;
+    display: grid;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    place-items: center;
+    margin: auto;
+    color: white;
+    background: transparent;
+}
+.container3 .left section .org-skill .card{
+    background: transparent;
+    color: black;
+}
+.container4{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+}
+.container4 .left{
+    width: 50%;
+    min-height: 100vh;
+    height:fit-content;
+    background: rgb(235, 7, 102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(PSX_20200710_093409.jpg);
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    mix-blend-mode: hard-light;
+    background-repeat: no-repeat;
+}
+.container4 .right{
+    width: 50%;
+    height: 100vh;
+    background:transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container4 .right h2{
+    font-size: 25px;
+    background-color: darkgreen;
+    width:fit-content;
+    padding: 10px;
+}
+.container4 .right h1{
+    font-size:25px;
+}
+.container4 .right img{
+    width: 80px;
+    height: 80px;
+}
+.project1,.project2{
+    margin: 50px auto;
+    width: 100%;
+    height:50vh;
+    text-align: center;
+    background: white;
+}
+.content1,.content2{
+    display: block;
+    position: relative;
+    top:auto;
+    left: 0;
+    min-width: fit-content;
+    padding:20px;
+    z-index: 2;
+    width:0;
+    background: darkblue;
+}
+.container4 .right h2:hover .content2{
+    display: block;
+}
+.container5{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    padding-top: 30vh;
+    justify-content: center;
+    text-align: center;
+    background-color: wheat;
+    
+}
+.container5 .swiper-container {
+    width: 90%;
+    height: 400px;
+    max-width: 500px;
+}
+.container5 .swiper-slide{
+    width:400px;
+    background-color: transparent;
+    box-shadow: 1px 4px 4px 1px black;
+  }
+.swiper-button-prev,.swiper-button-next{
+    color: tomato;
+
+}
+.container5 .card{
+    box-shadow: none;
+    width: 90%;
+    max-width: 500px;
+    background: transparent;
+    display: grid;
+    place-items:center;
+}
+.container5 .card h1{
+    font-size: 1.3em;
+    color:white;
+}
+.container5 .swiper-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container6{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+    text-align: center;
+    background-color: rgb(105, 193, 228);
+    
+}
+.fb-page{
+    position: relative;
+    width: 250px;
+    height: 400px;
+    background-color: thistle;
+    margin: 30px auto;
+}
+
+
+
+
+@media all and (max-width:600px){
+    .social-container{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content :center ;
+        height: fit-content;
+        padding-top: 5px;
+        background-color: transparent;
+        position: relative;
+        top: 10px;
+        right: 0px;
+    }
+    .main-left{
+        position: relative;
+        left: 0;
+        top: -50px;
+    }
+    .container2{
+        display: grid;
+        grid-template-columns:repeat(autofill,1fr);
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        height:fit-content;
+        background:linear-gradient(to bottom,goldenrod 50%,black 50%);
+        background: #1e1e26;
+    }
+    .container2 .left{
+        order: 1;
+        width: 100%;height: 50vh;
+
+    }
+    .pro-pic{
+        order: 2;
+        width: 100%;
+        height:150px;
+        position: relative;
+        left: 0;
+        top: calc(0vh);
+        display: flex;
+        justify-content: center;
+    }
+    .pro-pic .image{
+        width: 150px;
+        height: 150px;
+        clip-path: polygon(20% 0%,0% 20%,30% 50%,0% 80%,20% 100%,50% 70%,
+        80% 100%,100% 80%,70% 50%,100% 20%,80% 0%,50% 20%);
+    }
+    .container2 .right{
+        width: 100%;
+        order:3;
+        height: 60vh;
+        background-color: transparent;
+    }
+    .container2 .left{
+        order: 1;
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: calc(40vh);
+        background-color: transparent;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .container2 .left img{
+        width: 100%;
+    }
+    .container3{
+        height:fit-content;
+        min-height: 100vh;
+        width: 100;
+        overflow-y: visible;
+
+    }
+    .container3 .right{
+        width: 100%;
+        height: 40vh;
+        order: 1;
+    }
+    .container3 .left{
+        width: 100%;
+        height: 75vh;
+        order: 2;
+    }
+    .container3 .left section .tech-skill{
+        width: 100%;
+        overflow-x: auto;
+    }
+    .container3 .left section .org-skill{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .swiper-container {
+        width: 90%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: auto 0;
+      }
+    .card{
+        width: 90%;
+        height: 300px;
+        max-width: 290px;
+        margin: 0;
+        padding: 0;
+        font-family: 'Courier New', Courier, monospace;
+        box-shadow: none;
+        border-radius: none;
+    }
+    .card h1{
+        font-size: 20px;
+    }
+      .swiper-slide {
+        width: 90%;
+        padding:0;
+        max-width: 290px;
+        height: 300px;
+        margin: auto 0;    
+      }
+      .container4{
+          min-height: 100vh;
+          height:fit-content;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+      }
+      .container4 .right{
+          width: 100%;
+          height: 60vh;
+      }
+      .container4 .left{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+}
