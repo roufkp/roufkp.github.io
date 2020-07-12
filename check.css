@@ -1,5 +1,3 @@
-
-
 *{
     margin: 0;
     padding: 0;
@@ -29,8 +27,8 @@ h1{
 }
 .social-container img{
     box-shadow:0 0px 4px 0px black;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     margin: auto;
 }
 .resume{
@@ -65,144 +63,77 @@ h1{
     position: relative;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    background-image: url(red-led-light-with-silhouette-of-a-man-3094799.jpg);
-
-
-}
-.main-left{
-    max-width:250px;
-    width: 18vw;
-    margin: auto;
-    position: relative;
-    left: 0;
-    top: 0px;
-    height: 100vh;
-    background-color: black;
-    mix-blend-mode: difference;
-    background: linear-gradient(rgb(6, 6, 49),black);
-}
-.main-right
-{
-    position: relative;
-    width:80% ;
-    margin: 0;
-    background: transparent;
-}
-.cont-left{
-    height: 100vh;
-    margin: auto;
-     display: grid;
-     place-items: center;
-    align-items: center;
-}    
-.cont-left .about{
-    gap: 10px;
-    width: 18vw;
-    background-color: transparent;
-    margin: auto auto auto auto;
-    display: grid;
-    height: fit-content;
-    place-items: center;
-    color: gray;
-    font-family: monospace;
-    align-items: center;
-}
-.cont-left span{
-    font-size: 3em;
-    font-weight: bolder;
-    color: grey;
-    margin:  auto;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: auto;
-    width: 100%;
-    text-align: center;
-    cursor: pointer;
-    transition: all 1s;
-    text-shadow: 2px 2px   transparent;
-    background-color: transparent;
-    transition: .1s all linear;
-}
-.cont-left span:hover{
-    color: rgb(56, 238, 117);
-    text-shadow: 0 0 10px rgb(38, 224, 110),
-                 0 0 20px rgb(31, 212, 61),
-                 0 0 30px rgb(79, 230, 59),
-                 0 0 40px rgb(36, 221, 119) ;
-}
-.cont-right{
-    
+    background-image: url(man.jpg);
     background-position: center;
-}
-.main-left{
-    max-width:250px;
-    width: 18vw;
-    margin: auto;
-    position: relative;
-    left: 0;
-    top: 0px;
-    height: 100vh;
-    background-color: black;
-    mix-blend-mode: difference;
-    background: linear-gradient(rgb(6, 6, 49),black);
-}
-.main-right
-{
-    position: relative;
-    width:80% ;
-    margin: 0;
-    background: transparent;
-}
-.cont-left{
-    height: 100vh;
-    margin: auto;
-     display: grid;
-     place-items: center;
-    align-items: center;
-}    
-.cont-left .about{
-    gap: 10px;
-    width: 18vw;
-    background-color: transparent;
-    margin: auto auto auto auto;
-    display: grid;
-    height: fit-content;
-    place-items: center;
-    color: gray;
-    font-family: monospace;
-    align-items: center;
-}
-.cont-left span{
-    font-size: 3em;
-    font-weight: bolder;
-    color: grey;
-    margin:  auto;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: auto;
-    width: 100%;
-    text-align: center;
-    cursor: pointer;
-    transition: all 1s;
-    text-shadow: 2px 2px   transparent;
-    background-color: transparent;
-    transition: .1s all linear;
-}
-.cont-left span:hover{
-    color: rgb(56, 238, 117);
-    text-shadow: 0 0 10px rgb(38, 224, 110),
-                 0 0 20px rgb(31, 212, 61),
-                 0 0 30px rgb(79, 230, 59),
-                 0 0 40px rgb(36, 221, 119) ;
-}
-.cont-right{
-    background-image: url(red-led-light-with-silhouette-of-a-man-3094799.jpg);
-    background-position: center;
+    background-origin: border-box;
     background-repeat: no-repeat;
     background-size:cover;
+
+}
+.main-left{
+    max-width:250px;
+    width: 22vw;
+    margin: auto;
+    position: relative;
+    left: 0;
+    top: 0px;
+    height: 100vh;
+    background-color: black;
+    background: linear-gradient(rgb(6, 6, 49),black);
+}
+.main-right
+{
+    position: relative;
+    width:800vw;
+    height: 100vh;
+    margin: 0;
+    background: transparent;
+}
+.cont-left{
+    height: 100vh;
+    margin: auto;
+     display: grid;
+     place-items: center;
+    align-items: center;
+}    
+.cont-left .about{
+    gap: 10px;
+    width: 18vw;
+    background-color: transparent;
+    margin: auto auto auto auto;
+    display: grid;
+    height: fit-content;
+    place-items: center;
+    color: gray;
+    font-family: monospace;
+    align-items: center;
+}
+.cont-left span{
+    font-size: 3em;
+    font-weight: bolder;
+    color: grey;
+    margin:  auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: auto;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    transition: all 1s;
+    text-shadow: 2px 2px   transparent;
+    background-color: transparent;
+    transition: .1s all linear;
+}
+.cont-left span:hover{
+    color: rgb(56, 238, 117);
+    text-shadow: 0 0 10px rgb(38, 224, 110),
+                 0 0 20px rgb(31, 212, 61),
+                 0 0 30px rgb(79, 230, 59),
+                 0 0 40px rgb(36, 221, 119) ;
+}
+.cont-right{
     width: 90%;
     margin: auto;
-    height: 100vh;
-    background-blend-mode: darken;
+    height: 100%;
     display: grid;
     place-items: center;
 }
@@ -294,7 +225,8 @@ h1{
     width: 50%;
     height: 100vh;
     flex-direction: column;
-}.container3 .left h1{
+}
+.container3 .left h1{
     font-size: 30px;
 
 }
@@ -322,11 +254,12 @@ h1{
     width: 100%;
     display: grid;
     place-items: center;
-    height: 80vh;
+    height: 50vh;
     text-align: center;
     grid-gap: 20px;
-    background-color:orange ;
+    background-color:black ;
     padding: 30px 0;
+    color: white;
 }
 .container3 .left section .tech-skill img{
     width: 80px;
@@ -341,8 +274,8 @@ h1{
     display: grid;
     place-items: center;   
     width: 90%;
-    max-width: 300px;
-    height: 350px;
+    max-width: 270px;
+    height: 300px;
   }
   .tech-skill .swiper-slide{
     background-color: #c5d5cb;
@@ -356,21 +289,22 @@ h1{
     min-height: 50vh;
     font-size:12px ;
     grid-gap: 20px;
-    background-color:#c5d5cb ;
+    background-color:black ;
     padding: 30px 0;
     text-align: center;
+    color: white;
 }
 .org-skill .swiper-slide{
     background-color: orange;
     text-align: center;
-    width: 350px;
+    width: 300px;
 }
 .card{
     transition: all 1s linear;
     text-align:center;
     align-items:center;
-    width: 300px;
-    height: 350px;
+    width: 250px;
+    height: 300px;
     display: grid;
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
@@ -387,34 +321,34 @@ h1{
     display: flex;
     width: 100%;
     height: 100vh;
+    background:black;
     justify-content: center;
 }
 .container4 .left{
     width: 50%;
-    min-height: 100vh;
-    height:fit-content;
-    background: rgb(235, 7, 102);
+    height: 100vh;
+    background:black;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(PSX_20200710_093409.jpg);
-    background-color: transparent;
-    background-position: center;
-    background-size: cover;
-    mix-blend-mode: hard-light;
-    background-repeat: no-repeat;
+
+}
+.container4 .left h1{
+    font-weight: bolder;
+    font-size: 3em;
 }
 .container4 .right{
     width: 50%;
     height: 100vh;
-    background: rgb(235, 7, 102);
+    background:transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .container4 .right h2{
-    font-size: 25px;
+    font-size: 20px;
     background-color: black;
     width:fit-content;
     padding: 10px;
@@ -440,6 +374,7 @@ h1{
     top:auto;
     left: 0;
     width:90%;
+    margin: auto;
     max-width:500px ;
     padding:auto;
     z-index: 3;
@@ -448,39 +383,38 @@ h1{
 .container5{
     width: 100%;
     height: 100vh;
-    display: grid;
+    display: block;
     place-items: center;
-    padding-top: 30vh;
     justify-content: center;
     text-align: center;
-    background-color: wheat;
-    
+    background-color: black;
+}
+.container5 h1{
+    color: white;
 }
 .container5 .swiper-container {
     width: 90%;
-    height: 400px;
+    margin: 10vh auto ;
+    height: 300px;
     max-width: 500px;
 }
 .container5 .swiper-slide{
-    width:400px;
+    width:90%;
+    max-width: 300px;
     background-color: #c5d5c5;
     box-shadow: 1px 4px 4px 1px black;
   }
-.swiper-button-prev,.swiper-button-next{
-    color: tomato;
-
-}
 .container5 .card{
     box-shadow: none;
     width: 90%;
-    max-width: 500px;
+    max-width: 300px;
     background: #c5d5cb;
     display: grid;
     place-items:center;
     text-align: center;
 }
 .container5 .card h1{
-    font-size: 1.3em;
+    font-size: 1.1em;
     color:black;
 }
 .container5 .swiper-container{
@@ -494,14 +428,14 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 30px;
-    text-align: center;
-    background-color: rgb(105, 193, 228);
-    
+    text-align: center;   
+    background-color: black;
+    color: white;
 }
 .fb-page{
     position: relative;
     width: 250px;
-    height: 400px;
+    height: 60vh;
     background-color: thistle;
     margin: 30px auto;
 }
@@ -512,20 +446,17 @@ h1{
 @media all and (max-width:600px){
     .social-container{
         width: 80%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content :center ;
-        height: fit-content;
-        padding-top: 5px;
-        background-color: transparent;
-        position: relative;
-        top: 10px;
-        right: 0px;
+        
+    }
+    .resume{
+        position: absolute;
+        top: 80vh;
+        right: 0;
     }
     .main-left{
         position: relative;
         left: 0;
-        top: -50px;
+        top:0;
     }
     .container2{
         display: grid;
@@ -593,13 +524,17 @@ h1{
         order: 1;
     }
     .container3 .left{
+        position: relative;
+        display: flex;
+        overflow-y: scroll;
         width: 100%;
-        height: 75vh;
+        height: fit-content;
         order: 2;
+        flex-direction: column;
     }
     .container3 .left section .tech-skill{
         width: 100%;
-        overflow-x: auto;
+        overflow-x: hidden;
     }
     .container3 .left section .org-skill{
         width: 100%;
@@ -632,23 +567,18 @@ h1{
         margin: auto 0;    
       }
       .container4{
-          height: 100vh;
+          height: fit-content;
           width: 100%;
-          display: flex;
-          flex-direction: column;
+          display: block;
       }
       .container4 .right{
           width: 100%;
-          height: 60vh;
+          height: fit-content;
       }
     .container4 .left{
         width: 100%;
         height: 40vh;
         align-items: center;
-        background-image: url(project.jpg);
-        background-position: center;
-        background-size: cover;
-        mix-blend-mode: hard-light;
-        background-repeat: no-repeat;
+        text-align: center;
     }
 }
