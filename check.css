@@ -11,6 +11,9 @@ body{
     background-color: wheat;
     width: 100%;
 }
+a{
+    text-decoration: none;
+}
 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
 }
@@ -21,6 +24,7 @@ h1{
     position: absolute;
     float: right;
     right: 10px;
+    z-index: 99;
     top: 10px;
     display: flex;
     justify-content: space-around;
@@ -49,6 +53,7 @@ h1{
     width: 50px;
     height: 50px;
     transition: all 1s ease;
+    z-index: 99;
 }
 .main-container{
     display: block;
@@ -63,11 +68,12 @@ h1{
     position: relative;
     display: flex;
     justify-content: center;
-    background-image: url(man.jpg);
+    background-image: url(man-wearing-face-mask-3942124.jpg);
     background-position: center;
-    background-origin: border-box;
     background-repeat: no-repeat;
     background-size:cover;
+    background-origin: content-box;
+    
 
 }
 .main-left{
@@ -156,6 +162,7 @@ h1{
     flex-wrap: wrap;
     width: 100%;
     height: 100vh;
+    transition: 1s ease;
     background:linear-gradient(to right,#e3e0cf 50%,black 50%);
 }
 .pro-pic{
@@ -189,12 +196,15 @@ h1{
 }
 .container2 .right{
     width: 50%;
-    height: 80vh;
+    position: relative;
+    right:0;
+    top: -200px;
+    height: 100vh;
     background-color: transparent;
     color:white;
     text-align: center;
     z-index: 2;
-    overflow-y: scroll;
+    overflow-y: auto;
     display: grid;
     place-items: center;}
 .container2 .right h1{
@@ -202,21 +212,39 @@ h1{
     font-family: 'Josefin Sans',sans-serif;
     font-size: 3em;
 }
+.container2 .right .cont{
+    width:90%;
+    margin: auto;
+    letter-spacing: 1px;
+}
 .container3{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     height: 100vh;
-    background:linear-gradient(to right,initial 50%,blanchedalmond 50%);
 }
 .container3 .right{
     width: 50%;
     height: 100%;
-    background-color: transparent;
-    background-image: url(PSX_20200710_080034.jpg);
+    background-color: #e3e0cf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   /* background-image: url(PSX_20200710_080034.jpg);
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+}
+.container3 .right img{
+    width: 100px;
+    height: 100px;
+}
+.container3 .right h1{
+    font-size:3em;
+    color:black;
+
 }
 .container3 .left{
     position: relative;
@@ -228,7 +256,7 @@ h1{
 }
 .container3 .left h1{
     font-size: 30px;
-
+   
 }
 .container3 .left::-webkit-scrollbar{
     width:8px;
@@ -254,7 +282,7 @@ h1{
     width: 100%;
     display: grid;
     place-items: center;
-    height: 50vh;
+    height: 55vh;
     text-align: center;
     grid-gap: 20px;
     background-color:black ;
@@ -278,7 +306,7 @@ h1{
     height: 300px;
   }
   .tech-skill .swiper-slide{
-    background-color: #c5d5cb;
+    background-color:black;
     font-size: 15px;
   }
   .container3 .left section .org-skill{
@@ -286,7 +314,7 @@ h1{
     width: 100%;
     display: grid;
     place-items: center;
-    min-height: 50vh;
+    min-height: 55vh;
     font-size:12px ;
     grid-gap: 20px;
     background-color:black ;
@@ -295,9 +323,10 @@ h1{
     color: white;
 }
 .org-skill .swiper-slide{
-    background-color: orange;
+    background-color: transparent;
     text-align: center;
     width: 300px;
+    color:black;
 }
 .card{
     transition: all 1s linear;
@@ -310,26 +339,30 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     place-items: center;
     margin: auto;
-    color: white;
-    background: transparent;
+    color: black;
+    background: white;
 }
 .container3 .left section .org-skill .card{
-    background: transparent;
+    background: white;
     color: black;
+}
+.container3 .left section .org-skill .card h1{
+    font-size:20px;      
 }
 .container4{
     display: flex;
     width: 100%;
     height: 100vh;
-    background:black;
     justify-content: center;
 }
 .container4 .left{
     width: 50%;
     height: 100vh;
-    background:black;
+    background:#e3e0cf;
     color: white;
     display: flex;
+    flex-direction: column;
+    text-align: center;
     justify-content: center;
     align-items: center;
 
@@ -337,6 +370,7 @@ h1{
 .container4 .left h1{
     font-weight: bolder;
     font-size: 3em;
+    color: black;
 }
 .container4 .right{
     width: 50%;
@@ -347,8 +381,12 @@ h1{
     justify-content: center;
     align-items: center;
 }
+.container4 .left img{
+    width: 100px;
+    height:100px;
+}
 .container4 .right h2{
-    font-size: 20px;
+    font-size: 15px;
     background-color: black;
     width:fit-content;
     padding: 10px;
@@ -366,31 +404,66 @@ h1{
     width: 100%;
     height:50vh;
     text-align: center;
-    background: transparent;
+    background: black;
 }
 .content1,.content2{
     display: block;
     position: relative;
     top:auto;
     left: 0;
+    height: 70%;
     width:90%;
     margin: auto;
-    max-width:500px ;
-    padding:auto;
+    max-width:700px ;
+    padding:5px;
     z-index: 3;
-    background:#fa255e;
+    background:white;
+    box-shadow:1px 4px 4px 1px black;
+}
+.hide1,.hide2{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    transition: .4s all ease;
+    position: relative;
+    left:0;
+    width:0;
+    margin: auto;
+    height:200px;
+    padding: 0;
+    opacity: 0;
+    background:white;
+    box-shadow:1px 4px 4px 1px black;
+    z-index: 4;
+    transform: translateY(-220px);
+}
+.hide1 i,.hide2 i{
+    position: absolute;
+    top:10px;
+    left: 55%;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+.container4 a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
 }
 .container5{
     width: 100%;
     height: 100vh;
-    display: block;
+    display: grid;
     place-items: center;
     justify-content: center;
     text-align: center;
-    background-color: black;
+    padding: auto;
+    background-color: #e3e0cf;
 }
+
 .container5 h1{
-    color: white;
+    color: black;
 }
 .container5 .swiper-container {
     width: 90%;
@@ -401,14 +474,14 @@ h1{
 .container5 .swiper-slide{
     width:90%;
     max-width: 300px;
-    background-color: #c5d5c5;
+    background-color:transparent;
     box-shadow: 1px 4px 4px 1px black;
   }
 .container5 .card{
     box-shadow: none;
     width: 90%;
     max-width: 300px;
-    background: #c5d5cb;
+    background: transparent;
     display: grid;
     place-items:center;
     text-align: center;
@@ -416,6 +489,10 @@ h1{
 .container5 .card h1{
     font-size: 1.1em;
     color:black;
+}
+.container5 .card img{
+    width: 80px;
+    height: 80px;
 }
 .container5 .swiper-container{
     display: flex;
