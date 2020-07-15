@@ -649,6 +649,7 @@ p{
     .container2 .left img{
         width: 100%;
         height: calc(50vh - 75px);
+        margin:0;
     }
     .container3{
         height:fit-content;
