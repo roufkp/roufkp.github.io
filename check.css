@@ -652,6 +652,7 @@ p{
     }
     .container2 .left img{
         width: 100%;
+        margin:0;
         height: calc(50vh - 75px);
     }
     .container3{
