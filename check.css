@@ -287,17 +287,19 @@ p{
     width: 100%;
     display: grid;
     place-items: center;
-    height: 100vh;
+    height: 70vh;
+    min-width: fit-content;
     text-align: center;
     grid-gap: 20px;
     background-color:transparent ;
     padding: 30px 0;
     color: white;
     font-size: medium;
+    margin:10vh auto;
 }
 .container3 .left section .tech-skill img{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
 }
 .swiper-container {
     width: 100%;
@@ -320,13 +322,15 @@ p{
     width: 100%;
     display: grid;
     place-items: center;
-    min-height: 55vh;
+    height: 70vh;
+    min-height: fit-content;
     font-size:12px ;
     grid-gap: 20px;
     background-color:transparent ;
     padding: 30px 0;
     text-align: center;
     color: white;
+    margin-bottom:10vh ;
 }
 .org-skill .swiper-slide{
     background-color: transparent;
@@ -390,7 +394,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items:center;
 }
 .container4 .left img{
     width: 100px;
@@ -535,7 +539,7 @@ p{
 }
 .container6 .swiper-container{
     width: 60%;
-    height:auto;
+    height:60vh;
     max-height:70%;
     background-color:transparent;
     box-shadow:2px 20px 20px 2px black 
@@ -649,7 +653,6 @@ p{
     .container2 .left img{
         width: 100%;
         height: calc(50vh - 75px);
-        margin:0;
     }
     .container3{
         height:fit-content;
