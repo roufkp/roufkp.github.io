@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="206.946mm"
+   height="128.82054mm"
+   viewBox="0 0 206.946 128.82054"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="400"
-     inkscape:cy="560"
+     inkscape:cx="396.32611"
+     inkscape:cy="189.81004"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -44,25 +44,26 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-0.97204898,-70.233363)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:77.74732208px;line-height:1.25;font-family:Symbol;-inkscape-font-specification:Symbol;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.40493399"
-       x="39.172649"
-       y="144.48933"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:69.49977875px;line-height:1.25;font-family:Symbol;-inkscape-font-specification:Symbol;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.36197796"
+       x="42.79863"
+       y="142.89046"
        id="text12"
-       transform="matrix(0.72656377,-0.23772812,-0.01618557,1.3816375,0,0)"><tspan
+       transform="matrix(0.7933178,-0.21772441,-0.01767263,1.2653791,0,0)"><tspan
          sodipodi:role="line"
          id="tspan10"
-         x="39.172649"
-         y="144.48933"
-         style="font-style:normal;font-variant:normal;font-weight:bolder;font-stretch:normal;font-family:Symbol;-inkscape-font-specification:Symbol;fill:#fa255e;stroke-width:0.40493399">About</tspan></text>
+         x="42.79863"
+         y="142.89046"
+         style="font-style:normal;font-variant:normal;font-weight:bolder;font-stretch:normal;font-family:Symbol;-inkscape-font-specification:Symbol;fill:#fa255e;stroke-width:0.36197796">About</tspan></text>
   </g>
 </svg>
